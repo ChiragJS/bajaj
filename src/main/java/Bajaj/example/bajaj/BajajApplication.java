@@ -39,8 +39,8 @@ public class BajajApplication {
             try {
 
                 String generateWebhookUrl = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA";
-                String regNo = "1RV22CS224";
-                GenerateWebhookRequest request = new GenerateWebhookRequest("Vanshika Khandelwal", regNo, "vanshikak.cs22@rvce.edu.in");
+                String regNo = "1RV22EI013";
+                GenerateWebhookRequest request = new GenerateWebhookRequest("Chaheti Jha", regNo, "chahetijha.ei22@rvce.edu.in");
 
                 HttpHeaders headers = new HttpHeaders();
                 headers.setContentType(MediaType.APPLICATION_JSON);
